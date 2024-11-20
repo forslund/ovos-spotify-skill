@@ -6,7 +6,7 @@ from typing import Tuple, Dict
 import requests
 import spotipy
 from ovos_backend_client.api import OAuthApi
-from ovos_backend_client.database import OAuthTokenDatabase, OAuthApplicationDatabase
+from ovos_utils.oauth import OAuthTokenDatabase, OAuthApplicationDatabase
 from ovos_utils.log import LOG
 from ovos_utils.parse import match_one, fuzzy_match, MatchStrategy
 from ovos_utils.xdg_utils import xdg_config_home
